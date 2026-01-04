@@ -1,0 +1,9 @@
+build:
+  version: "3.0"
+accounts:
+  message: "Welcome to accounts API"
+  contactInfo:
+    admin: "Miki"
+  contributors:
+    - Pera
+    - Mika

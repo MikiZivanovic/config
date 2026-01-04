@@ -1,0 +1,10 @@
+build:
+  version: "3.0"
+cards:
+  message: "Welcome to cards API"
+  contactInfo:
+    admin: "Miki"
+  contributors:
+    - Pera
+    - Mika
+
