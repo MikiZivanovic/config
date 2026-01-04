@@ -1,9 +1,12 @@
-build:
-  version: "3.0"
-accounts:
-  message: "Welcome to Eureka SERVER"
-  contactInfo:
-    admin: "Miki"
-  contributors:
-    - Pera
-    - Mika
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
